@@ -1,0 +1,136 @@
+Atom
+	id											String
+	type										String
+	linkTo										HashMap<String, Float>
+	linkFrom									HashMap<String, Float>
+	activeTime									float	
+	active										boolean
+	imageName									String	
+	linkLimit									int
+	
+	Atom()
+	Atom(type)
+	Atom(type, imgName)
+	Atom(type, activeTime)
+	Atom(id, type, activeTime, imgName) 								[Used only for importing networks]
+	Atom(type, activeTime, linkTo, linkFrom, imgName)
+	
+	getID()										String
+	getType()									String
+	getActiveTime()								String
+	setActiveTime(activeTime)					void(float)
+	
+	createID()									String
+	addLinkTo(atomID, delay)					void(String, Float)
+	addLinkFrom(atomID, delay)					void(String, Float)
+	getDelayLinkTo(atomID)						Float(String)
+	getDelayLinkFrom(atomID)					Float(String)
+	setDelayLinkTo(atomID, Float)				void(String, Float)
+	setDelayLinkFrom(atomID, Float)				void(String, Float)
+	
+	removeLink(atomID)							void(String)
+	getLinksTo()								HashMap<String, Float>
+	getLinksFrom()								HashMap<String, Float>
+	removeAllLinks()							void
+	
+	printAtom()									String
+	toJSON()									JSONObject
+	
+	
+SensorAtom (extends Atom)
+	sensors										ArrayList<String>
+	sensory_conditions							HashMap<String, Float[]>
+	
+	SensorAtom()
+	SensorAtom(sensors)										(ArrayList<String>)
+	SensorAtom(id, type, activeTime)						(String, String, float)
+	SensorAtom(id, type, activeTime, sensors, conditions)	(String, String, float, ArrayList<String>, HashMap<String, Float[]>)
+	SensorAtom(sensors, conditions)							(ArrayList<String>, HashMap<String, Float[]>)
+	
+	getSensors()								ArrayList<String>
+	setSensors(sensors)							void(ArrayList<String>)
+	getAllSensory_Conditions()					HashMap<String, Float[]>
+	getSensory_Conditions(atomID)				Float[](String)
+	setSensory_Conditions(cons)					void(HashMap<String, Float[]>)
+	getHighOf(atomID)							Float(String)
+	getLowOf(atomID)							Float(String)
+	
+	addSensor(sensor)							void(String)
+	removeSensor(sensor)						void(String)
+	removeSensor(row)							void(int)
+	addSensory_Condition(atom, con)				void(String, Float[])
+	removeSensory_Condition(atom)				void(String)
+	setSensory_Condition(atom, high, low)		void(String, Float, Float)				[Used to set both high and low values of a sensor]
+	renameSensor(row, newName)					void(int, String)
+	
+	printSensors()								String
+	printAtom()									String
+	toJSON()									JSONObject
+	
+	
+MotorAtom (extends Atom)
+	motors										ArrayList<String>
+	parameters									ArrayList<String>
+	
+	MotorAtom()
+	MotorAtom(motors)							(ArrayList<String>)
+	MotorAtom(id, type, activeTime)				(String, String, float)
+	MotorAtom(id, type, activeTime, motors)		(String, String, float, ArrayList<String>)
+	MotorAtom(id, type, actTime, motors, pars)	(String, String, float, ArrayList<String>, ArrayList<String>)
+	MotorAtom(motors, parameters)				(ArrayList<String>, ArrayList<String>)
+	
+	getMotors()									ArrayList<String>
+	setMotors(motors)							void(ArrayList<String>)
+	getParameters()								ArrayList<String>
+	setParameters(parameters)					void(ArrayList<String>)
+	
+	clearMotors()								void
+	addMotor(motor)								void(String)
+	removeMotor(motor)							void(String)
+	clearParameters()							void
+	addParameter(parameter)						void(String)
+	removeParameter(parameter)					void(String)
+	
+	printMotors()								String
+	printParameters()							String
+	printAtom()									String
+	toJSON()									JSONObject
+
+TransformAtom (extends Atom)
+	parameters									ArrayList<String>
+	
+	TransformAtom()					
+	TransformAtom(parameters)					(ArrayList<String>)
+	TransformAtom(id, type, activeTime)			(String, String, float)
+	TransformAtom(id, type, activeTime, params)	(String, String, float, ArrayList<String>)
+	
+	getParameters()								ArrayList<String>
+	setParameters(parameters)					void(ArrayList<String>)
+	
+	clearParameters()							void
+	addParameter(parameter)						void(String)
+	removeParameter(parameter)					void(String)
+	
+	printParameters()							String
+	printAtom()									String
+	toJSON()									JSONObject
+	
+	
+GameAtom (extends Atom)
+	state										ArrayList<String>
+	
+	GameAtom()						
+	GameAtom(state)								(ArrayList<String>)
+	GameAtom(id, type, activeTime)				(String, String, float)
+	GameAtom(id, type, activeTime, states)		(String, String, float, ArrayList<String>)
+	
+	getStates()									ArrayList<String>
+	setStates(state)							void(ArrayList<String>)
+	
+	clearStates()								void
+	addState(state)								void(String)
+	removeState(state)							void(String)
+	
+	printState()								void
+	printAtom()									String
+	toJSON()									JSONObject

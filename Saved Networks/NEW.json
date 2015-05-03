@@ -1,0 +1,64 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "a-2205-mB",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-3825-XR",
+          "delay": 0.25999999046325684,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-688-CS",
+          "delay": 0.2800000011920929,
+          "bidirectional": false
+        }
+      ],
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 237,
+    "x": 252
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "id": "a-3825-XR",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-2205-mB",
+          "delay": 0.25999999046325684,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-3825-XR",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        }
+      ],
+      "type": "Transform"
+    },
+    "radius": 20,
+    "y": 139,
+    "x": 339
+  }},
+  {"node": {
+    "nodeID": "3",
+    "atom": {
+      "id": "a-688-CS",
+      "activeTime": 0,
+      "links": [{
+        "atomID": "a-3825-XR",
+        "delay": 0.3499999940395355,
+        "bidirectional": false
+      }],
+      "type": "Game"
+    },
+    "radius": 20,
+    "y": 309,
+    "x": 367
+  }}
+]}

@@ -1,0 +1,20 @@
+{"menu": [
+  {"item": {
+    "name": "NAO Sensor",
+	"color": "95, 47, 11",
+    "image_position": "90, 30",
+	"name_position": "60, 65",
+  }},
+  {"item": {
+    "name": "SHCLt Internal Sensor",
+	"color": "255, 160, 5",
+    "image_position": "217, 30",
+	"name_position": "155, 65",
+  }},
+  {"item": {
+    "name": "NAO Motor",
+	"color": "255, 15, 15",
+    "image_position": "321, 30",
+	"name_position": "295, 65",
+  }},
+]}

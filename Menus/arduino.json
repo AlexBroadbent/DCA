@@ -1,0 +1,20 @@
+{"menu": [
+  {"item": {
+    "name": "Base Sensor",
+	"color": "95, 47, 11",
+    "image_position": "95, 30",
+	"name_position": "60, 65",
+  }},
+  {"item": {
+    "name": "Data Sensor",
+	"color": "255, 160, 5",
+    "image_position": "205, 30",
+	"name_position": "175, 65",
+  }},
+  {"item": {
+    "name": "Arduino Motor",
+	"color": "255, 15, 15",
+    "image_position": "310, 30",
+	"name_position": "270, 65",
+  }},
+]}

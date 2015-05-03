@@ -1,0 +1,230 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "a-2468-tC",
+      "linkFrom": [{
+        "atomID": "a-4579-ej",
+        "delay": 0.20000000298023224
+      }],
+      "linkTo": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "activeTime": 0,
+      "type": "Base"
+    },
+    "radius": 20,
+    "y": 261,
+    "x": 259
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "sensors": [
+        {
+          "atomID": "a-3542-ft",
+          "high": 0.800000011920929,
+          "low": 0.30000001192092896
+        },
+        {"atomID": "a-1992-AB"}
+      ],
+      "id": "a-3542-ft",
+      "linkFrom": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-2468-tC",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "linkTo": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-4579-ej",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "activeTime": 0,
+      "type": "Sensory"
+    },
+    "radius": 20,
+    "y": 304,
+    "x": 127
+  }},
+  {"node": {
+    "nodeID": "3",
+    "atom": {
+      "id": "a-834-yR",
+      "linkFrom": [
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-2468-tC",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "motors": [
+        {"motor": "motor1"},
+        {"motor": "motor2"}
+      ],
+      "linkTo": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "activeTime": 0,
+      "parameters": [{"parameter": "param1"}],
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 391,
+    "x": 271
+  }},
+  {"node": {
+    "nodeID": "4",
+    "atom": {
+      "id": "a-4579-ej",
+      "linkFrom": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-4579-ej",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "linkTo": [
+        {
+          "atomID": "a-2468-tC",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-4579-ej",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "states": [
+        {"state": "state1"},
+        {"state": "state2"}
+      ],
+      "activeTime": 0,
+      "type": "Game"
+    },
+    "radius": 20,
+    "y": 139,
+    "x": 258
+  }},
+  {"node": {
+    "nodeID": "8",
+    "atom": {
+      "id": "a-4631-Fd",
+      "linkFrom": [{
+        "atomID": "a-1642-hT",
+        "delay": 0.2199999988079071
+      }],
+      "activeTime": 0,
+      "type": "Sensory"
+    },
+    "radius": 20,
+    "y": 174,
+    "x": 552
+  }},
+  {"node": {
+    "nodeID": "9",
+    "atom": {
+      "id": "a-1642-hT",
+      "linkFrom": [
+        {
+          "atomID": "a-1053-hX",
+          "delay": 0.1899999976158142
+        },
+        {
+          "atomID": "a-2137-ir",
+          "delay": 0.27000001072883606
+        },
+        {
+          "atomID": "a-4186-vv",
+          "delay": 0.3100000023841858
+        }
+      ],
+      "linkTo": [{
+        "atomID": "a-4631-Fd",
+        "delay": 0.2199999988079071
+      }],
+      "activeTime": 0,
+      "type": "Transform"
+    },
+    "radius": 20,
+    "y": 284,
+    "x": 554
+  }},
+  {"node": {
+    "nodeID": "10",
+    "atom": {
+      "id": "a-1053-hX",
+      "linkTo": [{
+        "atomID": "a-1642-hT",
+        "delay": 0.1899999976158142
+      }],
+      "activeTime": 0,
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 380,
+    "x": 559
+  }},
+  {"node": {
+    "nodeID": "11",
+    "atom": {
+      "id": "a-2137-ir",
+      "linkTo": [{
+        "atomID": "a-1642-hT",
+        "delay": 0.27000001072883606
+      }],
+      "activeTime": 0,
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 383,
+    "x": 464
+  }},
+  {"node": {
+    "nodeID": "12",
+    "atom": {
+      "id": "a-4186-vv",
+      "linkTo": [{
+        "atomID": "a-1642-hT",
+        "delay": 0.3100000023841858
+      }],
+      "activeTime": 0,
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 398,
+    "x": 662
+  }}
+]}

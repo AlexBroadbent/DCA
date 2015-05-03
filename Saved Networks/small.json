@@ -1,0 +1,92 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "a-2733-Jk",
+      "linkFrom": [
+        {
+          "atomID": "a-632-eE",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-2702-vc",
+          "delay": 0.23000000417232513
+        }
+      ],
+      "activeTime": 0,
+      "type": "Sensory"
+    },
+    "radius": 20,
+    "y": 211,
+    "x": 220
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "id": "a-559-Uu",
+      "linkFrom": [{
+        "atomID": "a-559-Uu",
+        "delay": 0.20000000298023224
+      }],
+      "linkTo": [
+        {
+          "atomID": "a-632-eE",
+          "delay": 0.2199999988079071
+        },
+        {
+          "atomID": "a-559-Uu",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "activeTime": 0,
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 210,
+    "x": 397
+  }},
+  {"node": {
+    "nodeID": "3",
+    "atom": {
+      "id": "a-632-eE",
+      "linkFrom": [{
+        "atomID": "a-559-Uu",
+        "delay": 0.2199999988079071
+      }],
+      "linkTo": [
+        {
+          "atomID": "a-2733-Jk",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-2702-vc",
+          "delay": 0.33000001311302185
+        }
+      ],
+      "activeTime": 0,
+      "type": "Game"
+    },
+    "radius": 20,
+    "y": 300,
+    "x": 305
+  }},
+  {"node": {
+    "nodeID": "4",
+    "atom": {
+      "id": "a-2702-vc",
+      "linkFrom": [{
+        "atomID": "a-632-eE",
+        "delay": 0.33000001311302185
+      }],
+      "linkTo": [{
+        "atomID": "a-2733-Jk",
+        "delay": 0.23000000417232513
+      }],
+      "activeTime": 0,
+      "type": "Transform"
+    },
+    "radius": 20,
+    "y": 133,
+    "x": 304
+  }}
+]}

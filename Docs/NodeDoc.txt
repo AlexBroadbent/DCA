@@ -1,0 +1,79 @@
+Node
+	id											String
+	position									PVector
+	radius										Float
+	atom										Atom
+	
+	Node(id, x, y, radius, atom)				
+	
+	getID()										String
+	setID(id)									void(String)
+	getPosition()								PVector
+	setPosition(position)						void(PVector)
+	getRadius()									Float
+	setRadius(radius)							void
+	
+	mouseOvered()								boolean
+	printNode()									String
+	toJSON()									JSONObject
+	
+
+Link
+	nodeFrom									Node
+	nodeTo										Node
+	delay										Float
+	
+	Link(nodeFrom, nodeTo, delay)
+	
+	getNodeFrom()								Node
+	setNodeFrom(nodeFrom)						void(Node)
+	getNodeTo()									Node
+	setNodeTo(nodeTo)							void(Node)
+	getDelay()									Float
+	setDelay(delay)								void(Float)
+	
+	contains()									boolean
+
+	
+Network
+	nodes										ArrayList<Node>
+	links										ArrayList<Link>
+	
+	Network()									
+	
+	getNodes()									ArrayList<Node>
+	setNodes(nodes)								void(ArrayList<Node>)
+	getLinks()									ArrayList<Link>
+	setLinks(links)								void(ArrayList<Link>)
+	
+	addNode(node)								void(Node)
+	removeNode(node)							void(Node)
+	addLink(link)								void(Link)
+	removeLink(link)							void(link)
+	getNode(id)									Node(String)            	[return Node from given atomID]
+	
+	intercept(node)								boolean
+	getNodeFromClick(x, y)						Node
+	numNodes()									int
+	numLinks()									int
+	createLinkNetwork(links, delays)			void(String[][], Float[])
+	toJSON()									JSONObject	
+	
+	
+Graph
+	setup()										void
+	draw()										void
+	getNumber()									int
+	drawArrow(Node1, Node2)						(Node, Node)
+[Inputs]
+	mousePressed()								void
+	mouseDragged()								void
+	mouseReleased()								void
+	keyPressed()								void
+	controlEvent(theEvent)						void(ControlEvent)
+[JsonIO]
+	saveJSON(selection)							void(File)
+	loadJSON(selection)							void(File)
+[VarChange]
+	addControlFrame(node)						ControlFrame(Node)
+	

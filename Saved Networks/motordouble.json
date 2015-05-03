@@ -1,0 +1,41 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "a-1779-Nb",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-1779-Nb",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-444-oq",
+          "delay": 0.23999999463558197,
+          "bidirectional": true
+        }
+      ],
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 232,
+    "x": 380
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "id": "a-444-oq",
+      "activeTime": 0,
+      "links": [{
+        "atomID": "a-1779-Nb",
+        "delay": 0.3799999952316284,
+        "bidirectional": false
+      }],
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 361,
+    "x": 378
+  }}
+]}

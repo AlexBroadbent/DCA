@@ -1,0 +1,58 @@
+
+Atom Graph GUI
+	by Alex Broadbent
+
+------------------------------------------
+ This guide is best viewed with Notepad++
+------------------------------------------
+
+
+
+Layout
+The basic layout of the GUI is a menu bar across the top of the screen, and the rest of the
+area being the graph area.
+
+
+Nodes and Atoms
+Within this area, atoms from the menu bar can be dragged down with a left mouse click and moved 
+around. Atoms can be selected by left clicking on them, from this selection you can move the
+atom around the area. 
+
+The atom can be double clicked, and the options menu will appear. From this menu the atom's own 
+properties can be changed, different atoms have different properties. 
+
+
+Links
+Atoms can be linked together to form molecules, right-clicking two nodes. An arrow will be drawn 
+between them to show the link. An atom can also link to itself, by right-clicking the same node twice.
+
+
+Export/Import
+Networks of atoms can be saved and loaded. This can be done through the big blue boxes on the main interface.
+Clicking Save Network will open up the operating system's default file selector, once a json (JavaScript Object
+Notation) file has been selected, or a new file name has been entered, the network will be saved to that file.
+
+A network can be loaded by clicking Load Network, after which a file selector will display, and a json (JavaScript 
+Object Notation) file can be selected.
+
+If there are unsaved changes made to a network, then a * (asterisk) will appear before the title of the network 
+in the title of the program.
+
+
+Options
+User preferences can be set through the options menu. This contains three different categories of options:
+Environment - The program can be made to offer different environments for different robots. The robot can
+				be selected through this option.
+Startup 	- The program can load a network when it is first loaded, this can be set through the options
+				menu, by clicking the 'Remember File' checkbox. Be sure to select a file first though, if
+				one has not already been selected.
+Display 	- The program can change it's look and feel, by changing some display properties. The ID of the
+				atom can be displayed, and an optional box can be displayed around the ID to make it stand 
+				out more. The properties of an atom can be displayed when mouse overed, this can be changed 
+				with the Display Properties checkbox.
+
+Once a value is changed, the choice will be remembered for the rest of the time that the program is opened. To
+save the options for future use, click the Save button. The menu will then be closed.
+
+
+

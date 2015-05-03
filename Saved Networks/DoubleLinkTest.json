@@ -1,0 +1,72 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "b",
+      "linkFrom": [
+        {
+          "atomID": "b",
+          "delay": 0.20000000298023224,
+		  "bidirectional": false
+        },
+        {
+          "atomID": "c",
+          "delay": 0.25,
+		  "bidirectional": false
+        }
+      ],
+      "linkTo": [
+        {
+          "atomID": "b",
+          "delay": 0.20000000298023224,
+		  "bidirectional": false
+        },
+        {
+          "atomID": "c",
+          "delay": 0.27000001072883606,
+		  "bidirectional": true
+        }
+      ],
+      "activeTime": 0,
+      "type": "Game"
+    },
+    "radius": 20,
+    "y": 226,
+    "x": 205
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "id": "c",
+      "linkFrom": [
+        {
+          "atomID": "b",
+          "delay": 0.27000001072883606,
+		  "bidirectional": false
+        },
+        {
+          "atomID": "c",
+          "delay": 0.20000000298023224,
+		  "bidirectional": false
+        }
+      ],
+      "linkTo": [
+        {
+          "atomID": "b",
+          "delay": 0.25,
+		  "bidirectional": true
+        },
+        {
+          "atomID": "c",
+          "delay": 0.20000000298023224,
+		  "bidirectional": false
+        }
+      ],
+      "activeTime": 0,
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 366,
+    "x": 231
+  }}
+]}

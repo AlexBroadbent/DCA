@@ -1,0 +1,203 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "a-2468-tC",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        }
+      ],
+      "type": "Base"
+    },
+    "radius": 20,
+    "y": 261,
+    "x": 259
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "sensors": [
+        {
+          "atomID": "a-3542-ft",
+          "high": 0.800000011920929,
+          "low": 0.30000001192092896
+        },
+        {"atomID": "a-1992-AB"}
+      ],
+      "id": "a-3542-ft",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4579-ej",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4579-ej",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        }
+      ],
+      "type": "Sensory"
+    },
+    "radius": 20,
+    "y": 304,
+    "x": 127
+  }},
+  {"node": {
+    "nodeID": "3",
+    "atom": {
+      "id": "a-834-yR",
+      "motors": [
+        {"motor": "motor1"},
+        {"motor": "motor2"}
+      ],
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-3542-ft",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        }
+      ],
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 392,
+    "x": 259
+  }},
+  {"node": {
+    "nodeID": "4",
+    "atom": {
+      "id": "a-4579-ej",
+      "states": [
+        {"state": "state1"},
+        {"state": "state2"}
+      ],
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-2468-tC",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-703-nX",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4579-ej",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-2468-tC",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-703-nX",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4579-ej",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        }
+      ],
+      "type": "Game"
+    },
+    "radius": 20,
+    "y": 141,
+    "x": 258
+  }},
+  {"node": {
+    "nodeID": "5",
+    "atom": {
+      "id": "a-703-nX",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-2468-tC",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-703-nX",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-834-yR",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-2468-tC",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-703-nX",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        }
+      ],
+      "type": "Transform"
+    },
+    "radius": 20,
+    "y": 216,
+    "x": 406
+  }}
+]}

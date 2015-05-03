@@ -1,0 +1,17 @@
+{"network": [{"node": {
+  "nodeID": "1",
+  "atom": {
+    "id": "a-3377-KA",
+    "states": [
+      {"state": "a-1992-AB"},
+      {"state": "a-1992-Jb"},
+      {"state": "a-1987-Pj"},
+      {"state": "a-1985-NB"}
+    ],
+    "activeTime": 0,
+    "type": "Game"
+  },
+  "radius": 20,
+  "y": 202,
+  "x": 212
+}}]}

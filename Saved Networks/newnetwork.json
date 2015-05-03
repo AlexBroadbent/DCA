@@ -1,0 +1,63 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "a-3510-QT",
+      "linkFrom": [
+        {
+          "atomID": "a-2036-KX",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-3120-mv",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "activeTime": 0,
+      "type": "Sensory"
+    },
+    "radius": 20,
+    "y": 215,
+    "x": 174
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "id": "a-3120-mv",
+      "linkFrom": [{
+        "atomID": "a-2036-KX",
+        "delay": 0.20000000298023224
+      }],
+      "linkTo": [{
+        "atomID": "a-3510-QT",
+        "delay": 0.20000000298023224
+      }],
+      "activeTime": 0,
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 355,
+    "x": 145
+  }},
+  {"node": {
+    "nodeID": "3",
+    "atom": {
+      "id": "a-2036-KX",
+      "linkTo": [
+        {
+          "atomID": "a-3120-mv",
+          "delay": 0.20000000298023224
+        },
+        {
+          "atomID": "a-3510-QT",
+          "delay": 0.20000000298023224
+        }
+      ],
+      "activeTime": 0,
+      "type": "Game"
+    },
+    "radius": 20,
+    "y": 291,
+    "x": 215
+  }}
+]}

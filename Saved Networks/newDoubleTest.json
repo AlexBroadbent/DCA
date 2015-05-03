@@ -1,0 +1,316 @@
+{"network": [
+  {"node": {
+    "nodeID": "1",
+    "atom": {
+      "id": "a-4228-SV",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.25999999046325684,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.23999999463558197,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.25999999046325684,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.23999999463558197,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.25999999046325684,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.23999999463558197,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.25999999046325684,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.23999999463558197,
+          "bidirectional": true
+        }
+      ],
+      "type": "Sensory"
+    },
+    "radius": 20,
+    "y": 237,
+    "x": 96
+  }},
+  {"node": {
+    "nodeID": "2",
+    "atom": {
+      "id": "a-3694-vA",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.41999998688697815,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.41999998688697815,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.41999998688697815,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.41999998688697815,
+          "bidirectional": false
+        }
+      ],
+      "type": "Sensory"
+    },
+    "radius": 20,
+    "y": 322,
+    "x": 206
+  }},
+  {"node": {
+    "nodeID": "3",
+    "atom": {
+      "id": "a-784-bU",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.18000000715255737,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.18000000715255737,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1343-Ql",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-3114-WB",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.18000000715255737,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1549-DK",
+          "delay": 0.18000000715255737,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-3694-vA",
+          "delay": 0.41999998688697815,
+          "bidirectional": true
+        },
+        {
+          "atomID": "a-1343-Ql",
+          "delay": 0.20000000298023224,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-3114-WB",
+          "delay": 0.27000001072883606,
+          "bidirectional": false
+        }
+      ],
+      "type": "Motor"
+    },
+    "radius": 20,
+    "y": 220,
+    "x": 308
+  }},
+  {"node": {
+    "nodeID": "4",
+    "atom": {
+      "id": "a-1549-DK",
+      "activeTime": 0,
+      "links": [
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.12999999523162842,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.12999999523162842,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.12999999523162842,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-4228-SV",
+          "delay": 0.23999999463558197,
+          "bidirectional": false
+        },
+        {
+          "atomID": "a-784-bU",
+          "delay": 0.12999999523162842,
+          "bidirectional": false
+        }
+      ],
+      "type": "Transform"
+    },
+    "radius": 20,
+    "y": 134,
+    "x": 203
+  }},
+  {"node": {
+    "nodeID": "5",
+    "atom": {
+      "id": "a-1343-Ql",
+      "activeTime": 0,
+      "type": "Game"
+    },
+    "radius": 20,
+    "y": 140,
+    "x": 379
+  }},
+  {"node": {
+    "nodeID": "6",
+    "atom": {
+      "id": "a-3114-WB",
+      "activeTime": 0,
+      "type": "Transform"
+    },
+    "radius": 20,
+    "y": 289,
+    "x": 382
+  }}
+]}
